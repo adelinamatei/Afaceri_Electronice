@@ -1,0 +1,40 @@
+{
+  "name": "ae-bdsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js",
+    "dev:watch": "node --watch src/index.js",
+    "eslint:check": "eslint src",
+    "eslint:write": "eslint src --fix",
+    "pretty:check": "prettier --check .",
+    "pretty:write": "prettier --write ."
+  },
+  "author": "Mihai Adrian Lungu",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "@types/node": "^22.10.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "eslint-plugin-import": "^2.31.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "stripe": "^17.4.0",
+    "y": "^0.3.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.1",
+    "prisma": "^6.0.1"
+  }
+}
